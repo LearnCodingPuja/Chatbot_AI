@@ -80,7 +80,7 @@ Send message
 Wait for response
 Validate intent
 
-
+ 
 Note:** separated Playwright framework configuration from AI and application because it allows me to manage AI timeouts, hallucination checks, multilingual behavior, and security payloads centrally, which is essential for testing non-deterministic LLM systems **.
 
 #This project uses GitHub Actions to automatically run Playwright UI, API, and AI validation tests on every push and pull request.
